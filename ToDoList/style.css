@@ -1,0 +1,114 @@
+.header {
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+}
+
+form,
+.content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 3px solid #5F9EA0;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+}
+
+.input-group input {
+	height: 30px;
+	width: 65%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.task {
+	width: 73%;
+	height: 5%;
+	padding: 2px;
+	margin-left: 6px;
+	border: 1px solid #6B8E23;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+table {
+	width: 50%;
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #5F9EA0;
+}
+
+tr:hover {
+	background: #DDD;
+}
+
+th,
+td {
+	border: none;
+	height: 30px;
+	padding: 2px;
+}
+
+.task {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.delete a {
+	color: #fff;
+	width: 60px;
+	padding: 1px 6px;
+	background: #a52a2a;
+	margin-top: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.delete {
+	text-align: center;
+}
+
+a:hover {
+	color: #666;
+	background: red;
+	cursor: pointer;
+}
+
+.edit {
+	background: transparent;
+	margin-left: 10px;
+}
+
+.edit a {
+	background: transparent;
+}
+
+.edit a:hover {
+	background: transparent;
+}
